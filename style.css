@@ -2,5 +2,10 @@
 @import "./global/global.css";
 @import "./global/header.css";
 
+/* COMPONENTES */
+@import "./componentes/tipografia.css";
+@import "./componentes/cores.css";
+@import "./componentes/botao.css";
+
 /* HOME */
 @import "./home/introducao.css";

@@ -1,0 +1,93 @@
+/* BOTÃO 1 */
+
+.botao-1 {
+    display: inline-block;
+
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    color: var(--p5);
+
+    background: linear-gradient(var(--p1), var(--p2));
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+}
+
+.botao-1:hover {
+    background: linear-gradient(var(--p2), var(--p3));
+}
+
+/* RESPONSIVO - BOTÃO 1 */
+
+@media (max-width: 1280px) {
+    .botao-1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .botao-1 {
+        font-size: 0.875rem;
+        padding: 1rem 1.5rem;
+    }
+}
+
+/* BOTÃO MENU */
+
+.botao-menu {
+    display: inline-block;
+    position: relative;
+
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: var(--c00);
+
+    padding: 16px 0px;
+}
+
+.botao-menu::after {
+    content: "";
+    display: block;
+
+    height: 2px;
+    width: 0%;
+    background: var(--c00);
+
+    margin-top: 4px;
+    position: absolute;
+}
+
+.botao-menu:hover::after {
+    width: 100%;
+    transition: 0.3s;
+}
+
+/* RESPONSIVO - BOTÃO MENU*/
+
+@media (max-width: 800px) {
+    .botao-menu {
+        font-size: 1rem;
+        background: var(--c99);
+
+        padding: 0.875rem 1.125rem;
+        border-radius: 0.25rem;
+    }
+
+    .botao-menu:hover {
+        background-color: var(--c90);
+    }
+
+    .botao-menu::after {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .botao-1 {
+        padding: 0.75rem 1rem;
+    }
+}
