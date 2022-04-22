@@ -82,25 +82,26 @@
 
 @media (max-width: 800px) {
     .bicicletas-lista-container {
-        padding: 0rem 0rem 0rem 2.5rem;
-        margin: 2rem auto;
+        padding: 0rem;
     }
 
     .bicicletas-lista h2 {
         font: var(--poppins-32b);
         margin-bottom: 0.75rem;
+        padding-left: 2.5rem;
     }
 
     .lista {
         gap: 1.5rem;
-    }
-
-    .lista li {
         padding-bottom: 1.25rem;
     }
 
+    .lista li:first-child {
+        padding-left: 2.5rem;
+    }
+
     .lista li:last-child {
-        margin-right: 2.5rem;
+        padding-right: 2.5rem;
     }
 
     .lista h3 {
@@ -114,14 +115,6 @@
 }
 
 @media (max-width: 600px) {
-    .bicicletas-lista-container {
-        padding: 0rem;
-    }
-
-    .bicicletas-lista h2 {
-        padding-left: 1.25rem;
-    }
-
     .lista li:first-child {
         padding-left: 1.25rem;
     }
