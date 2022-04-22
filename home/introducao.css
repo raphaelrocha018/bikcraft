@@ -37,10 +37,6 @@
     margin-bottom: 1.25rem;
 }
 
-.introducao img {
-    border-radius: 0.5rem;
-}
-
 /* RESPONSIVO */
 
 @media (max-width: 1280px) {
@@ -100,6 +96,6 @@
 
     .introducao img {
         height: 18rem;
-        /* width: 100%; */
+        width: 100%;
     }
 }

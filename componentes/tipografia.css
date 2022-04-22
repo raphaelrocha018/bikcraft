@@ -37,9 +37,9 @@
 /* ROBOTO - SEMIBOLD */
 
 :root {
-    --roboto-24: 600 1.5rem/1.5 "Roboto", sans-serif;
-    --roboto-18: 600 1.125rem/1.3 "Roboto", sans-serif;
-    --roboto-16: 600 1rem/1.5 "Roboto", sans-serif;
-    --roboto-14: 600 0.875rem/1.4 "Roboto", sans-serif;
-    --roboto-12: 600 0.75rem/1.3 "Roboto", sans-serif;
+    --roboto-24b: 600 1.5rem/1.5 "Roboto", sans-serif;
+    --roboto-18b: 600 1.125rem/1.3 "Roboto", sans-serif;
+    --roboto-16b: 600 1rem/1.5 "Roboto", sans-serif;
+    --roboto-14b: 600 0.875rem/1.4 "Roboto", sans-serif;
+    --roboto-12b: 600 0.75rem/1.3 "Roboto", sans-serif;
 }

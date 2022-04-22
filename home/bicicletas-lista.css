@@ -1,0 +1,124 @@
+.bicicletas-lista {
+    background-color: var(--c00);
+}
+
+.bicicletas-lista-container {
+    box-sizing: border-box;
+    padding: 0rem 1.25rem;
+    max-width: 90rem;
+    margin: 7.5rem auto;
+}
+
+.bicicletas-lista h2 {
+    font: var(--poppins-64b);
+    color: var(--c99);
+
+    margin-bottom: 2.5rem;
+    margin-left: 6rem;
+}
+
+.bicicletas-lista h2 span {
+    color: var(--p1);
+}
+
+.lista {
+    display: flex;
+    gap: 2.5rem;
+    overflow-x: auto;
+}
+
+.lista li {
+    min-width: 17.5rem;
+}
+
+.lista a {
+    display: block;
+}
+
+.lista img {
+    margin-bottom: 1rem;
+}
+
+.lista h3 {
+    font: var(--poppins-32b);
+    color: var(--c99);
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.lista h3:before {
+    content: "";
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.5rem;
+    background-color: var(--p1);
+    margin-right: 0.5rem;
+}
+
+.lista a:hover h3::before {
+    width: 1.5rem;
+    transition: width 0.2s;
+}
+
+.lista span {
+    font: var(--roboto-18b);
+    color: var(--c70);
+    padding-left: 1.25rem;
+}
+
+@media (max-width: 1280px) {
+    .bicicletas-lista-container {
+        padding: 0rem 2.5rem;
+        margin: 2rem auto;
+    }
+
+    .bicicletas-lista h2 {
+        font-size: 3rem;
+        line-height: 1;
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .bicicletas-lista-container {
+        padding: 0rem 0rem 0rem 2.5rem;
+        margin: 2rem auto;
+    }
+
+    .bicicletas-lista h2 {
+        font: var(--poppins-32b);
+        margin-bottom: 0.75rem;
+    }
+
+    .lista {
+        gap: 1.5rem;
+    }
+
+    .lista li {
+        padding-bottom: 1.25rem;
+    }
+
+    .lista li:last-child {
+        margin-right: 2.5rem;
+    }
+
+    .lista h3 {
+        font: var(--poppins-24b);
+        margin-bottom: 0rem;
+    }
+
+    .lista span {
+        font: var(--roboto-16b);
+    }
+}
+
+@media (max-width: 600px) {
+    .bicicletas-lista-container {
+        padding: 0rem 0rem 0rem 1.25rem;
+    }
+
+    .lista li:last-child {
+        margin-right: 1.25rem;
+    }
+}
