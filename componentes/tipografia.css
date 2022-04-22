@@ -3,7 +3,7 @@
 /* POPPINS - REGULAR */
 
 :root {
-    --poppins-64: 400 4rem/1.2 "Poppins", sans-serif;
+    --poppins-64: 400 4rem/1.1 "Poppins", sans-serif;
     --poppins-32: 400 2rem/1.3 "Poppins", sans-serif;
     --poppins-24: 400 1.5rem/1.5 "Poppins", sans-serif;
     --poppins-18: 400 1.125rem/1.3 "Poppins", sans-serif;
@@ -15,7 +15,7 @@
 /* POPPINS - SEMIBOLD */
 
 :root {
-    --poppins-64b: 600 4rem/1.2 "Poppins", sans-serif;
+    --poppins-64b: 600 4rem/1.1 "Poppins", sans-serif;
     --poppins-32b: 600 2rem/1.3 "Poppins", sans-serif;
     --poppins-24b: 600 1.5rem/1.5 "Poppins", sans-serif;
     --poppins-18b: 600 1.125rem/1.3 "Poppins", sans-serif;

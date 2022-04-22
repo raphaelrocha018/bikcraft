@@ -91,3 +91,34 @@
         padding: 0.75rem 1rem;
     }
 }
+
+/* BOTÃO LINK */
+
+.botao-link {
+    display: inline-block;
+
+    font: var(--poppins-24b);
+    color: var(--p1);
+
+    text-transform: uppercase;
+}
+
+.botao-link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.25rem;
+    background-color: currentColor;
+}
+
+.botao-link:hover {
+    color: var(--c00);
+}
+
+/* RESPONSIVO - BOTÃO LINK */
+
+@media (max-width: 1280px) {
+    .botao-link::after {
+        height: 0.2rem;
+    }
+}
