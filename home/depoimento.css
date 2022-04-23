@@ -83,6 +83,10 @@
         grid-template-columns: 1fr;
     }
 
+    .depoimento img {
+        max-height: 12.5rem;
+    }
+
     .depoimento-conteudo {
         align-self: center;
     }
