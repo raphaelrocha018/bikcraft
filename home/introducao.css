@@ -1,18 +1,14 @@
 /* INTRODUÇÃO */
 
-.introducao {
+.introducao-bg {
     background-color: var(--c100);
     box-shadow: inset 0 -120px 0 0 var(--c00);
 }
 
-.introducao-container {
+.introducao {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0rem 1.5rem;
-    box-sizing: border-box;
-    padding: 0rem 1.25rem;
-    max-width: 80rem;
-    margin: 0 auto;
+    gap: 0rem 2.5rem;
 }
 
 .introducao-conteudo {
@@ -21,19 +17,11 @@
 }
 
 .introducao h1 {
-    color: var(--c00);
-    font: var(--poppins-64b);
     margin-bottom: 2rem;
     max-width: 17ch;
 }
 
-.introducao h1 span {
-    color: var(--p1);
-}
-
 .introducao p {
-    color: var(--c40);
-    font: var(--roboto-24);
     margin-bottom: 1.25rem;
 }
 
@@ -43,60 +31,53 @@
     object-fit: cover;
 }
 
-/* RESPONSIVO */
+/* RESPONSIVO - INTRODUÇÃO */
 
 @media (max-width: 1280px) {
-    .introducao-container {
-        padding: 0rem 2.5rem;
-    }
-
     .introducao h1 {
-        font-size: 3rem;
-        line-height: 1;
+        font: var(--poppins-48b);
         margin-bottom: 1.5rem;
         max-width: 15ch;
     }
+
+    .introducao p {
+        font: var(--roboto-20);
+        max-width: 45ch;
+    }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 960px) {
+    .introducao-bg {
+        box-shadow: inset 0 -60px 0 0 var(--c00);
+    }
+
+    .introducao-conteudo {
+        padding-bottom: 7rem;
+    }
+
+    .introducao h1 {
+        font: var(--poppins-40b);
+        margin-bottom: 0.75rem;
+    }
+
     .introducao p {
         font: var(--roboto-18);
         max-width: 48ch;
     }
 }
 
-@media (max-width: 900px) {
-    .introducao {
-        box-shadow: inset 0 -60px 0 0 var(--c00);
-    }
-
-    .introducao-container {
-        padding-top: 1rem;
-    }
-
-    .introducao-conteudo {
-        padding-bottom: 6rem;
-    }
-
-    .introducao h1 {
-        font-size: 2.5rem;
-        margin-bottom: 0.75rem;
-    }
-}
-
-@media (max-width: 700px) {
-    .introducao {
+@media (max-width: 720px) {
+    .introducao-bg {
         background-color: var(--c99);
     }
 
-    .introducao-container {
+    .introducao {
         grid-template-columns: 1fr;
     }
 
     .introducao-conteudo {
         align-self: start;
-        padding: 2.5rem 0rem;
-        padding-bottom: 2rem;
+        padding: 2rem 0rem;
     }
 
     .introducao h1 {
@@ -106,11 +87,5 @@
 
     .introducao img {
         height: 18rem;
-    }
-}
-
-@media (max-width: 600px) {
-    .introducao-container {
-        padding: 0rem 1.25rem;
     }
 }

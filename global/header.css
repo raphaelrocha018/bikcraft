@@ -1,19 +1,15 @@
 /* CABEÇALHO */
 
-.header {
+.header-bg {
     background-color: var(--c100);
+    padding: 1.5rem 0rem;
 }
 
-.header-container {
+.header {
     display: flex;
     gap: 1.25rem;
     justify-content: space-between;
     align-items: center;
-
-    box-sizing: border-box;
-    padding: 1.25rem;
-    max-width: 80rem;
-    margin: 0 auto;
 }
 
 .menu {
@@ -21,27 +17,16 @@
     gap: 2.5rem;
 }
 
-/* RESPONSIVO */
+/* RESPONSIVO - CABEÇALHO*/
 
-@media (max-width: 1280px) {
-    .header-container {
-        padding: 1.25rem 2.5rem;
-    }
-}
-
-@media (max-width: 800px) {
-    .menu {
-        gap: 0rem 1.125rem;
-    }
-}
-
-@media (max-width: 600px) {
-    .header-container {
+@media (max-width: 720px) {
+    .header {
         display: grid;
         grid-template-columns: 1fr;
         gap: 2rem;
         justify-items: center;
-        padding: 3rem 1.25rem 1.5rem 1.25rem;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
     }
 
     .menu {
