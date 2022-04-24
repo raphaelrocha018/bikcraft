@@ -87,6 +87,7 @@
 @media (max-width: 720px) {
     .seguros {
         grid-template-columns: 1fr;
+        padding-bottom: 2rem;
     }
 
     .seguros h2 {
@@ -98,7 +99,7 @@
     }
 
     .seguros-item {
-        width: 50%;
+        max-width: 100%;
         grid-template-columns: 5fr 2fr;
         gap: 0rem 1rem;
         margin: 0 auto;
