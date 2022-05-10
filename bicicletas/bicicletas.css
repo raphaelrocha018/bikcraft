@@ -1,0 +1,116 @@
+/* BICICLETAS */
+
+.bicicletas-bg:nth-child(odd) {
+    background: linear-gradient(to right, var(--c00) 30%, var(--c99) 0%);
+}
+
+.bicicletas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.bicicletas-imagem {
+    position: relative;
+}
+
+.bicicletas-imagem span {
+    display: inline-block;
+    background-color: var(--c100);
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    border-radius: 0.3rem 0rem 0rem 0.3rem;
+    position: absolute;
+    top: 1.25rem;
+    right: 0rem;
+}
+
+.bicicletas-conteudo {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.bicicletas-conteudo h2 {
+    grid-column: 1/-1;
+    margin-bottom: 1.25rem;
+}
+
+.bicicletas-conteudo h2::before {
+    content: "";
+    display: block;
+    background-color: var(--p1);
+    width: 12px;
+    height: 8px;
+    margin-bottom: 5px;
+}
+
+.bicicletas-conteudo p {
+    grid-column: 1/-1;
+    margin-bottom: 2rem;
+}
+
+.bicicletas-conteudo li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bicicletas-conteudo li + li {
+    margin-top: 1rem;
+}
+
+.bicicletas-conteudo img {
+    width: 24px;
+    height: 24px;
+}
+
+.bicicletas-conteudo a {
+    place-self: end;
+}
+
+/* RESPONSIVO - BICICLETAS */
+
+@media (max-width: 1280px) {
+    .bicicletas-conteudo {
+        align-content: start;
+    }
+
+    .bicicletas-conteudo h2 {
+        margin-bottom: 1.125rem;
+    }
+
+    .bicicletas-conteudo p {
+        margin-bottom: 1.75rem;
+    }
+
+    .bicicletas-conteudo li + li {
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .bicicletas-conteudo h2 {
+        font: var(--poppins-32b);
+        margin-bottom: 1rem;
+    }
+
+    .bicicletas-conteudo p {
+        margin-bottom: 1.5rem;
+        font: var(--roboto-16);
+    }
+
+    .bicicletas-conteudo ul {
+        font: var(--roboto-16);
+    }
+}
+
+@media (max-width: 720px) {
+    .bicicletas-bg:nth-child(odd) {
+        background: var(--c99);
+    }
+
+    .bicicletas {
+        grid-template-columns: 1fr;
+    }
+}
