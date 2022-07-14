@@ -19,6 +19,10 @@
     overflow-x: auto;
 }
 
+#bicicleta .bicicletas-home ul {
+    max-width: 76rem;
+}
+
 .bicicletas-home li {
     min-width: 17.5rem;
 }
