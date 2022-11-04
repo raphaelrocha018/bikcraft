@@ -1,0 +1,90 @@
+/* RODAPÉ */
+
+.footer-bg {
+    background-color: var(--c100);
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 3fr 5fr 4fr;
+    gap: 2.5rem;
+}
+
+.footer-contato h3 {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.footer-contato li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-contato li:nth-child(even):after {
+    content: "";
+    display: block;
+    max-width: 20rem;
+    height: 1px;
+    background-color: var(--c99);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-redes {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-informacoes h3 {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.footer-informacoes li {
+    margin-bottom: 0.5rem;
+}
+
+.footer a:hover {
+    color: var(--c00);
+}
+
+.footer > span {
+    grid-column: 1/-1;
+    padding-top: 2rem;
+}
+
+/* RESPONSIVO - RODAPÉ */
+
+@media (max-width: 720px) {
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer h3 {
+        font: var(--roboto-20b);
+    }
+
+    .footer ul {
+        font: var(--roboto-16);
+    }
+
+    .footer > img {
+        grid-column: 1/-1;
+        margin-bottom: 2rem;
+    }
+
+    .footer > span {
+        font: var(--roboto-16);
+    }
+}
+
+@media (max-width: 540px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-contato {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,270 @@
+/* TIPOGRAFIA */
+
+/* POPPINS - REGULAR */
+
+:root {
+    --poppins-64: 400 4rem/1.125 "Poppins", sans-serif;
+    --poppins-56: 400 3.5rem/1.125 "Poppins", sans-serif;
+    --poppins-48: 400 3rem/1.125 "Poppins", sans-serif;
+    --poppins-40: 400 2.5rem/1.25 "Poppins", sans-serif;
+    --poppins-32: 400 2rem/1.25 "Poppins", sans-serif;
+    --poppins-24: 400 1.5rem/1.3 "Poppins", sans-serif;
+    --poppins-20: 400 1.25rem/1.125 "Poppins", sans-serif;
+    --poppins-18: 400 1.125rem/1.3 "Poppins", sans-serif;
+    --poppins-16: 400 1rem/1.5 "Poppins", sans-serif;
+    --poppins-14: 400 0.875rem/1.4 "Poppins", sans-serif;
+    --poppins-12: 400 0.75rem/1.3 "Poppins", sans-serif;
+}
+
+.poppins-64 {
+    font: var(--poppins-64);
+}
+
+.poppins-56 {
+    font: var(--poppins-56);
+}
+
+.poppins-48 {
+    font: var(--poppins-48);
+}
+
+.poppins-40 {
+    font: var(--poppins-40);
+}
+
+.poppins-32 {
+    font: var(--poppins-32);
+}
+
+.poppins-24 {
+    font: var(--poppins-24);
+}
+
+.poppins-20 {
+    font: var(--poppins-20);
+}
+
+.poppins-18 {
+    font: var(--poppins-18);
+}
+
+.poppins-16 {
+    font: var(--poppins-16);
+}
+
+.poppins-14 {
+    font: var(--poppins-14);
+}
+
+.poppins-12 {
+    font: var(--poppins-12);
+}
+
+/* POPPINS - SEMIBOLD */
+
+:root {
+    --poppins-64b: 600 4rem/1.125 "Poppins", sans-serif;
+    --poppins-56b: 600 3.5rem/1.125 "Poppins", sans-serif;
+    --poppins-48b: 600 3rem/1.125 "Poppins", sans-serif;
+    --poppins-40b: 600 2.5rem/1.25 "Poppins", sans-serif;
+    --poppins-32b: 600 2rem/1.25 "Poppins", sans-serif;
+    --poppins-24b: 600 1.5rem/1.3 "Poppins", sans-serif;
+    --poppins-20b: 600 1.25rem/1.125 "Poppins", sans-serif;
+    --poppins-18b: 600 1.125rem/1.3 "Poppins", sans-serif;
+    --poppins-16b: 600 1rem/1.5 "Poppins", sans-serif;
+    --poppins-14b: 600 0.875rem/1.4 "Poppins", sans-serif;
+    --poppins-12b: 600 0.75rem/1.3 "Poppins", sans-serif;
+}
+
+.poppins-64b {
+    font: var(--poppins-64b);
+}
+
+.poppins-56b {
+    font: var(--poppins-56b);
+}
+
+.poppins-48b {
+    font: var(--poppins-48b);
+}
+
+.poppins-40b {
+    font: var(--poppins-40b);
+}
+
+.poppins-32b {
+    font: var(--poppins-32b);
+}
+
+.poppins-24b {
+    font: var(--poppins-24b);
+}
+
+.poppins-20b {
+    font: var(--poppins-20b);
+}
+
+.poppins-18b {
+    font: var(--poppins-18b);
+}
+
+.poppins-16b {
+    font: var(--poppins-16b);
+}
+
+.poppins-14b {
+    font: var(--poppins-14b);
+}
+
+.poppins-12b {
+    font: var(--poppins-12b);
+}
+
+/* ROBOTO - REGULAR */
+
+:root {
+    --roboto-64: 400 4rem/1.125 "Roboto", sans-serif;
+    --roboto-56: 400 3.5rem/1.125 "Roboto", sans-serif;
+    --roboto-48: 400 3rem/1.125 "Roboto", sans-serif;
+    --roboto-40: 400 2.5rem/1.25 "Roboto", sans-serif;
+    --roboto-32: 400 2rem/1.25 "Roboto", sans-serif;
+    --roboto-24: 400 1.5rem/1.3 "Roboto", sans-serif;
+    --roboto-20: 400 1.25rem/1.125 "Roboto", sans-serif;
+    --roboto-18: 400 1.125rem/1.3 "Roboto", sans-serif;
+    --roboto-16: 400 1rem/1.5 "Roboto", sans-serif;
+    --roboto-14: 400 0.875rem/1.4 "Roboto", sans-serif;
+    --roboto-12: 400 0.75rem/1.3 "Roboto", sans-serif;
+}
+
+.roboto-64 {
+    font: var(--roboto-64);
+}
+
+.roboto-56 {
+    font: var(--roboto-56);
+}
+
+.roboto-48 {
+    font: var(--roboto-48);
+}
+
+.roboto-40 {
+    font: var(--roboto-40);
+}
+
+.roboto-32 {
+    font: var(--roboto-32);
+}
+
+.roboto-24 {
+    font: var(--roboto-24);
+}
+
+.roboto-20 {
+    font: var(--roboto-20);
+}
+
+.roboto-18 {
+    font: var(--roboto-18);
+}
+
+.roboto-16 {
+    font: var(--roboto-16);
+}
+
+.roboto-14 {
+    font: var(--roboto-14);
+}
+
+.roboto-12 {
+    font: var(--roboto-12);
+}
+
+/* ROBOTO - SEMIBOLD */
+
+:root {
+    --roboto-64b: 500 4rem/1.125 "Roboto", sans-serif;
+    --roboto-56b: 500 3.5rem/1.125 "Roboto", sans-serif;
+    --roboto-48b: 500 3rem/1.125 "Roboto", sans-serif;
+    --roboto-40b: 500 2.5rem/1.25 "Roboto", sans-serif;
+    --roboto-32b: 500 2rem/1.25 "Roboto", sans-serif;
+    --roboto-24b: 500 1.5rem/1.3 "Roboto", sans-serif;
+    --roboto-20b: 500 1.25rem/1.125 "Roboto", sans-serif;
+    --roboto-18b: 500 1.125rem/1.3 "Roboto", sans-serif;
+    --roboto-16b: 500 1rem/1.5 "Roboto", sans-serif;
+    --roboto-14b: 500 0.875rem/1.4 "Roboto", sans-serif;
+    --roboto-12b: 500 0.75rem/1.3 "Roboto", sans-serif;
+}
+
+.roboto-64b {
+    font: var(--roboto-64b);
+}
+
+.roboto-56b {
+    font: var(--roboto-56b);
+}
+
+.roboto-48b {
+    font: var(--roboto-48b);
+}
+
+.roboto-40b {
+    font: var(--roboto-40b);
+}
+
+.roboto-32b {
+    font: var(--roboto-32b);
+}
+
+.roboto-24b {
+    font: var(--roboto-24b);
+}
+
+.roboto-20b {
+    font: var(--roboto-20b);
+}
+
+.roboto-18b {
+    font: var(--roboto-18b);
+}
+
+.roboto-16b {
+    font: var(--roboto-16b);
+}
+
+.roboto-14b {
+    font: var(--roboto-14b);
+}
+
+.roboto-12b {
+    font: var(--roboto-12b);
+}
+/* MERRIWEATHER - BLACK ITALIC */
+
+:root {
+    --merriweather-40bli: 900 italic 2.5rem/1.25 "Merriweather", serif;
+    --merriweather-32bli: 900 italic 2rem/1.25 "Merriweather", serif;
+    --merriweather-24bli: 900 italic 1.5rem/1.3 "Merriweather", serif;
+    --merriweather-20bli: 900 italic 1.25rem/1.3 "Merriweather", serif;
+    --merriweather-16bli: 900 italic 1rem/1.5 "Merriweather", serif;
+}
+
+.merriweather-40bli {
+    font: var(--merriweather-40bli);
+}
+
+.merriweather-32bli {
+    font: var(--merriweather-32bli);
+}
+
+.merriweather-24bli {
+    font: var(--merriweather-24bli);
+}
+
+.merriweather-20bli {
+    font: var(--merriweather-20bli);
+}
+
+.merriweather-16bli {
+    font: var(--merriweather-16bli);
+}

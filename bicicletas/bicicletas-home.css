@@ -1,0 +1,114 @@
+/* BICICLETAS HOME */
+
+.bicicletas-home {
+    background-color: var(--c00);
+    padding-top: 5rem;
+    padding-bottom: 7.5rem;
+}
+
+.bicicletas-home h2 {
+    margin-bottom: 2.5rem;
+}
+
+.bicicletas-home ul {
+    max-width: 90rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 2.5rem;
+    overflow-x: auto;
+}
+
+#bicicleta .bicicletas-home ul {
+    max-width: 76rem;
+}
+
+.bicicletas-home li {
+    min-width: 17.5rem;
+}
+
+.bicicletas-home a {
+    display: block;
+}
+
+.bicicletas-home img {
+    margin-bottom: 1rem;
+}
+
+.bicicletas-home h3 {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.bicicletas-home h3:before {
+    content: "";
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.5rem;
+    background-color: var(--p1);
+    margin-right: 0.5rem;
+}
+
+.bicicletas-home a:hover h3::before {
+    width: 1.5rem;
+    transition: width 0.3s;
+}
+
+.bicicletas-home ul span {
+    padding-left: 1.25rem;
+}
+
+/* RESPONSIVO - BICICLETAS */
+
+@media (max-width: 1280px) {
+    .bicicletas-home {
+        padding-bottom: 5rem;
+    }
+
+    .bicicletas-home h2 {
+        font: var(--poppins-48b);
+    }
+}
+
+@media (max-width: 960px) {
+    .bicicletas-home {
+        padding-top: 4rem;
+    }
+
+    .bicicletas-home h2 {
+        font: var(--poppins-40b);
+    }
+
+    .bicicletas-home ul {
+        padding: 0rem;
+    }
+
+    .bicicletas-home li:first-child {
+        padding-left: 2rem;
+    }
+
+    .bicicletas-home li:last-child {
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .bicicletas-home h2 {
+        font: var(--poppins-32b);
+        margin-bottom: 0.75rem;
+    }
+
+    .bicicletas-home ul {
+        gap: 1.5rem;
+    }
+
+    .bicicletas-home h3 {
+        font: var(--poppins-24b);
+        margin-bottom: 0rem;
+    }
+
+    .bicicletas-home ul span {
+        font: var(--roboto-16b);
+    }
+}
