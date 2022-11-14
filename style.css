@@ -8,6 +8,7 @@
 @import "./componentes/cores.css";
 @import "./componentes/botao.css";
 @import "./componentes/extras.css";
+@import "./componentes/animacao.css";
 
 /* HOME */
 @import "./home/introducao.css";

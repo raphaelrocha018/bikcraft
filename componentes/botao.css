@@ -94,7 +94,8 @@
     position: absolute;
 }
 
-.botao-menu:hover::after {
+.botao-menu:hover::after,
+.ativo::after {
     width: 100%;
     transition: 0.3s;
 }
